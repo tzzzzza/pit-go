@@ -1,0 +1,18 @@
+{% extends 'nav.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block styles %}
+{% endblock %}
+
+{% block innertemplate %}
+<div class="home-holder">
+    <img src="../static/images/pitngo-home.jpg" alt="">
+</div>
+{% endblock %}
+
+{%block pendingCount %}
+{{noti_counts}}
+{% endblock %}
